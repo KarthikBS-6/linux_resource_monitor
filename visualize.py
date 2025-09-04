@@ -38,3 +38,5 @@ plt.tight_layout()
 plt.grid(True)
 
 plt.savefig("usage_graph.png")
+
+print("Graph saved as usage_graph.png")
