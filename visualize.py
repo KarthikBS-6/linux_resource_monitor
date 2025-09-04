@@ -6,7 +6,7 @@ timestamps = []
 cpu_usage = []
 memory_usage = []
 
-with open("cpu_memory.csv', 'r') as f:
+with open("cpu_memory.csv", 'r') as f:
 
     reader = csv.reader(f)
 
@@ -16,7 +16,7 @@ with open("cpu_memory.csv', 'r') as f:
             continue
 
         timestamps.append(datetime.strptime(row[0], '%Y-%m-%d %H:%M:%S'))
-        cpu_usage.append)float(row[1]))
+        cpu_usage.append(float(row[1]))
         memory_usage.append(float(row[2]))
 
 plt.figure(figsize=(10,5))
@@ -25,7 +25,7 @@ plt.plot(timestamps, cpu_usage, label='CPU Usage (%)', color='pink')
 plt.plot(timestamps, memory_usage, label='Memory Usagae (%)', color='orange')
 
 plt.xlabel('Timestamp')
-plt.ylable('Usage (%)')
+plt.ylabel('Usage (%)')
 
 plt.title('System Resource Usage Over Time')
 
