@@ -37,4 +37,4 @@ plt.tight_layout()
 
 plt.grid(True)
 
-plt.show()
+plt.savefig("usage_graph.png")
