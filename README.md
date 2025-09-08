@@ -57,8 +57,8 @@ https://github.com/KarthikBS-6/linux_resource_monitor/usage_graph.png
 
 🔁 Jenkins Integration
 
-• 	Schedule monitor.py every 10 minutes
-• 	Optionally run visualize.py daily
+• 	Schedule monitor.py every 10 minutes.
+• 	Optionally run visualize.py daily.
 • 	Archive system_usage.csv and graph as build artifacts
 
 
@@ -68,4 +68,5 @@ https://github.com/KarthikBS-6/linux_resource_monitor/usage_graph.png
 • 	Using Matplotlib to visualize system metrics
 • 	Automating tasks via Jenkins on Linux
 • 	Documenting technical work for GitHub and interviews
+
 
