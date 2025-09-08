@@ -1,6 +1,6 @@
-# InsightPulse – Linux Resource Monitor with Visual Intelligence
+# Linux Resource Monitor
 
-A lightweight Python-based tool that collects CPU and memory usage from a Linux server every 10 minutes, stores the data in a structured CSV file, and visualizes performance trends using Matplotlib. Built for automation via Jenkins and designed to be modular, beginner-friendly, and portfolio-ready.
+A Python-based tool that collects CPU and memory usage from a Linux server every 10 minutes, logs the data to a CSV file, and visualizes performance trends using Matplotlib. Designed for automation via Jenkins and built with clarity and modularity for portfolio visibility.
 
 ---
 
@@ -57,9 +57,9 @@ https://github.com/KarthikBS-6/linux_resource_monitor/usage_graph.png
 
 🔁 Jenkins Integration
 
-• 	Create a Jenkins job to run  every 10 minutes
-• 	Optionally run  daily to refresh the graph
-• 	Archive  and  as build artifacts
+• 	Schedule monitor.py every 10 minutes
+• 	Optionally run visualize.py daily
+• 	Archive system_usage.csv and graph as build artifacts
 
 
 🧠 What I Learned:
@@ -68,3 +68,4 @@ https://github.com/KarthikBS-6/linux_resource_monitor/usage_graph.png
 • 	Using Matplotlib to visualize system metrics
 • 	Automating tasks via Jenkins on Linux
 • 	Documenting technical work for GitHub and interviews
+
