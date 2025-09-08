@@ -53,5 +53,18 @@ Graph is saved as screenshots/usage_graph.png.
 
 📸 Sample Output:
 
+https://github.com/KarthikBS-6/linux_resource_monitor/usage_graph.png
+
+🔁 Jenkins Integration
+
+• 	Create a Jenkins job to run  every 10 minutes
+• 	Optionally run  daily to refresh the graph
+• 	Archive  and  as build artifacts
 
 
+🧠 What I Learned:
+
+• 	Structuring Python scripts for automation and clarity
+• 	Using Matplotlib to visualize system metrics
+• 	Automating tasks via Jenkins on Linux
+• 	Documenting technical work for GitHub and interviews
